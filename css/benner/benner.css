@@ -1,33 +1,37 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  overflow: hidden;
-  background-image: url(/assets/img/dark-blue-background.jpg);
-  height: 620px;
+.main-section {
   position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(235, 82, 73, 0.7), rgba(0, 0, 0, 0.7)), url("http://nicesnippets.com/demo/service-bg01.png");
+  /* height: 500px; */
+  height: 600px;
   background-size: cover;
 }
-/* .bg {
-  background-image: url(/assets/img/community.jpg);
-  height: 620px;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-.text {
-  text-align: center;
-  padding: 30px;
-  margin-top: 25%;
-  margin-left: 50%;
-  width: 700px;
-  color: #111;
-  background: transparent;
-  background-color: #ffffffb9;
-  transform: translate(-50%, -50%);
+.main-section i {
+  font-size: 35px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  transform: translateX(-50%);
+}
+.main-section .section-part {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.blink {
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 0.6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
 }

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  background-image: url(/assets/img/dark-blue-background.jpg);
+  height: 620px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .bg {
+  background-image: url(/assets/img/community.jpg);
+  height: 620px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.text {
+  text-align: center;
+  padding: 30px;
+  margin-top: 25%;
+  margin-left: 50%;
+  width: 700px;
+  color: #111;
+  background: transparent;
+  background-color: #ffffffb9;
+  transform: translate(-50%, -50%);
+}

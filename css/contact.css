@@ -1,21 +1,10 @@
-.jumbotron {
-  padding-top: 6rem;
-  background-color: #09393f;
-}
-
-#projects {
-  background-color: #09393f;
-}
-#about {
-  background-color: #085e59;
-}
-#hobby {
-  background-color: #085e59;
-}
-#contact {
-  padding-top: 4rem;
-  background-color: #09393f;
+.kontak {
+  background: url(/assets/img/community.jpg) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
 }
 section {
-  padding-top: 5rem;
+  padding-top: 5 rem;
 }

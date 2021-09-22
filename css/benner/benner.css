@@ -1,6 +1,6 @@
 .main-section {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(235, 82, 73, 0.7), rgba(0, 0, 0, 0.7)), url("http://nicesnippets.com/demo/service-bg01.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(52, 10, 168, 0.349), rgba(0, 0, 0, 0.7)), url(/assets/img/banner.jpg);
   /* height: 500px; */
   height: 600px;
   background-size: cover;
@@ -34,4 +34,22 @@
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-direction: alternate;
+}
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: rgb(15, 24, 95);
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
 }

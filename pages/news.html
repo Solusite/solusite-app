@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       window.$crisp = [];
       window.CRISP_WEBSITE_ID = "2c818568-333b-4be5-aa06-f1bb407bddb1";
       (function () {
@@ -14,10 +14,12 @@
         s.async = 1;
         d.getElementsByTagName("head")[0].appendChild(s);
       })();
-    </script>
+    </script> -->
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
     <link rel="stylesheet" href="/css/news.css" />
+    <link rel="stylesheet" href="/brangakasFile/jumbootron.css" />
+
     <title>Solusite</title>
   </head>
   <body>
@@ -54,9 +56,42 @@
     </nav>
     <!-- end navbar -->
     <!-- jumbotron -->
-    <section class="jumbotron text-center text-white">
-      <h2 class="display-4">SOLUSITE</h2>
-      <p class="lead">WEB INOVASI</p>
+    <section id="Benner">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+            <div class="carousel-caption">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+            <div class="carousel-caption">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+            <div class="carousel-caption">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
     <!-- Berita Terbaru -->
@@ -69,7 +104,7 @@
               <h1>News Today</h1>
             </div>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center text-center">
             <div class="col-md-4 mb-3">
               <div class="card">
                 <img src="/assets/img/1157122002.jpeg" class="card-img-top" alt="Project 1" height="200" width="200" />
@@ -160,7 +195,99 @@
     <!-- Trending Topic -->
 
     <!-- end Trending Topic -->
-
+    <section id="statistic" class="bg-light p-5">
+      <div class="container">
+        <h3 class="pb-2">Responsive Tabel</h3>
+        <div class="table-resposive" id="no-more-tables">
+          <table class="table bg-white">
+            <thead class="bg-dark text-light">
+              <tr>
+                <th>#</th>
+                <th>Keyword</th>
+                <th>Source</th>
+                <th>Feedback</th>
+                <th>Telusuri</th>
+                <!-- <th>State</th>
+              <th>Email</th>
+              <th>Phone No</th> -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-title="#">1</td>
+                <td data-title="Keyword">Indonesia</td>
+                <td data-title="Source">Trending Topik</td>
+                <td data-title="Feedback">10 rb+ komentar</td>
+                <td data-title="Telusuri"><a href="#" class="btn btn-primary">Baca Artikel</a></td>
+              </tr>
+              <tr>
+                <td data-title="#">2</td>
+                <td data-title="Keyword">Saham</td>
+                <td data-title="Source">News Today</td>
+                <td data-title="Feedback">9,2 rb+ komentar</td>
+                <td data-title="Telusuri"><a href="#" class="btn btn-primary">Baca Artikel</a></td>
+              </tr>
+              <tr>
+                <td data-title="#">3</td>
+                <td data-title="Keyword">Beasiswa Gratis</td>
+                <td data-title="Source">News Today</td>
+                <td data-title="Feedback">8,7 rb+ komentar</td>
+                <td data-title="Telusuri"><a href="#" class="btn btn-primary">Baca Artikel</a></td>
+              </tr>
+              <tr>
+                <td data-title="#">4</td>
+                <td data-title="Keyword">Om Botak</td>
+                <td data-title="Source">Trending Topik</td>
+                <td data-title="Feedback">8,2 rb+ komentar</td>
+                <td data-title="Telusuri"><a href="#" class="btn btn-primary">Baca Artikel</a></td>
+              </tr>
+              <tr>
+                <td data-title="#">5</td>
+                <td data-title="Keyword">Reksadana</td>
+                <td data-title="Source">News Today</td>
+                <td data-title="Feedback">8 rb+ komentar</td>
+                <td data-title="Telusuri"><a href="#" class="btn btn-primary">Baca Artikel</a></td>
+              </tr>
+              <tr>
+                <td data-title="#">6</td>
+                <td data-title="Keyword">PPKM</td>
+                <td data-title="Source">News Today</td>
+                <td data-title="Feedback">6,9 rb+ komentar</td>
+                <td data-title="Telusuri"><a href="#" class="btn btn-primary">Baca Artikel</a></td>
+              </tr>
+              <tr>
+                <td data-title="#">7</td>
+                <td data-title="Keyword">Alfy Rev</td>
+                <td data-title="Source">Trending Topik</td>
+                <td data-title="Feedback">6,7 rb+ komentar</td>
+                <td data-title="Telusuri"><a href="#" class="btn btn-primary">Baca Artikel</a></td>
+              </tr>
+              <tr>
+                <td data-title="#">8</td>
+                <td data-title="Keyword">Covid</td>
+                <td data-title="Source">News Today</td>
+                <td data-title="Feedback">6,6 rb+ komentar</td>
+                <td data-title="Telusuri"><a href="#" class="btn btn-primary">Baca Artikel</a></td>
+              </tr>
+              <tr>
+                <td data-title="#">9</td>
+                <td data-title="Keyword">Netflix</td>
+                <td data-title="Source">News Today</td>
+                <td data-title="Feedback">5 rb+ komentar</td>
+                <td data-title="Telusuri"><a href="#" class="btn btn-primary">Baca Artikel</a></td>
+              </tr>
+              <tr>
+                <td data-title="#">10</td>
+                <td data-title="Keyword">Manga</td>
+                <td data-title="Source">News Today</td>
+                <td data-title="Feedback">4,1 rb+ komentar</td>
+                <td data-title="Telusuri"><a href="#" class="btn btn-primary">Baca Artikel</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
     <!-- statistic -->
     <section id="statistic">
       <div class="container">

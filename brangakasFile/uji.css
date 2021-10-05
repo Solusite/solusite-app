@@ -1,7 +1,8 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url("https://source.unsplash.com/BtbjCFUvBXs/1920x1080");
+
+  background: linear-gradient(rgba(83, 3, 79, 0.829), rgba(23, 4, 77, 0.349), rgba(26, 2, 34, 0.7)), url(/assets/img/banner.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,7 +1,3 @@
-.jumbotron {
-  padding-top: 6rem;
-  background-color: #a7b6c4dc;
-}
 @media only screen and (max-width: 800px) {
   #no-more-tables tbody,
   #no-more-tables tr,
@@ -29,4 +25,15 @@
   #no-more-tables tr {
     border-bottom: 1px solid #ccc;
   }
+}
+
+/* carousel */
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

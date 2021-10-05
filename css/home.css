@@ -1,9 +1,11 @@
-.banner {
-  background: url(/assets/img/gambar\ lampu.jpeg);
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  padding-top: 20%;
-  padding-bottom: 20%;
-  color: #fff;
 }
 
 .lingkaran {
@@ -51,4 +53,12 @@ a.sosial {
 }
 section {
   padding-top: 5 rem;
+}
+
+#header {
+  background: url(https://www.oketheme.com/wp-content/uploads/2014/08/ngiklan-featured-2.jpg) center center / cover no-repeat;
+}
+.scroll {
+  max-height: 100px;
+  overflow-y: auto;
 }

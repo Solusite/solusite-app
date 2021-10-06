@@ -62,3 +62,19 @@ section {
   max-height: 100px;
   overflow-y: auto;
 }
+.layar-dalam {
+  width: 1000px;
+  margin: auto;
+}
+section.quote {
+  background: url("/assets/img/community.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  padding: 100px;
+  border: hotpink;
+}

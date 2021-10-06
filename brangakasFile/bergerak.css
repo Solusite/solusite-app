@@ -1,29 +1,18 @@
-/* equal card height */
-.row-equal > div[class*="col-"] {
-  display: flex;
-  flex: 1 0 auto;
+.news {
+  width: 160px;
 }
 
-.row-equal .card {
-  width: 100%;
+.news-scroll a {
+  text-decoration: none;
 }
 
-/* ensure equal card height inside carousel */
-.carousel-inner > .row-equal.active,
-.carousel-inner > .row-equal.next,
-.carousel-inner > .row-equal.prev {
-  display: flex;
-}
-
-/* prevent flicker during transition */
-.carousel-inner > .row-equal.active.left,
-.carousel-inner > .row-equal.active.right {
-  opacity: 0.5;
-  display: flex;
-}
-
-/* control image height */
-.card-img-top-250 {
-  max-height: 250px;
-  overflow: hidden;
+.dot {
+  height: 6px;
+  width: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 2px !important;
+  background-color: rgb(207, 23, 23);
+  border-radius: 50%;
+  display: inline-block;
 }
